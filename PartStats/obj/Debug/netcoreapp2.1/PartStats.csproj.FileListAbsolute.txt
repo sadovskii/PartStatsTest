@@ -1,0 +1,14 @@
+E:\учеба\c#\тестовые задания\IHS test\PartStats\PartStats\bin\Debug\netcoreapp2.1\PartStats.deps.json
+E:\учеба\c#\тестовые задания\IHS test\PartStats\PartStats\bin\Debug\netcoreapp2.1\PartStats.runtimeconfig.json
+E:\учеба\c#\тестовые задания\IHS test\PartStats\PartStats\bin\Debug\netcoreapp2.1\PartStats.runtimeconfig.dev.json
+E:\учеба\c#\тестовые задания\IHS test\PartStats\PartStats\bin\Debug\netcoreapp2.1\PartStats.dll
+E:\учеба\c#\тестовые задания\IHS test\PartStats\PartStats\bin\Debug\netcoreapp2.1\PartStats.pdb
+E:\учеба\c#\тестовые задания\IHS test\PartStats\PartStats\bin\Debug\netcoreapp2.1\PartStats.BLL.dll
+E:\учеба\c#\тестовые задания\IHS test\PartStats\PartStats\bin\Debug\netcoreapp2.1\PartStats.BLL.pdb
+E:\учеба\c#\тестовые задания\IHS test\PartStats\PartStats\obj\Debug\netcoreapp2.1\PartStats.csprojAssemblyReference.cache
+E:\учеба\c#\тестовые задания\IHS test\PartStats\PartStats\obj\Debug\netcoreapp2.1\PartStats.csproj.CoreCompileInputs.cache
+E:\учеба\c#\тестовые задания\IHS test\PartStats\PartStats\obj\Debug\netcoreapp2.1\PartStats.AssemblyInfoInputs.cache
+E:\учеба\c#\тестовые задания\IHS test\PartStats\PartStats\obj\Debug\netcoreapp2.1\PartStats.AssemblyInfo.cs
+E:\учеба\c#\тестовые задания\IHS test\PartStats\PartStats\obj\Debug\netcoreapp2.1\PartStats.csproj.CopyComplete
+E:\учеба\c#\тестовые задания\IHS test\PartStats\PartStats\obj\Debug\netcoreapp2.1\PartStats.dll
+E:\учеба\c#\тестовые задания\IHS test\PartStats\PartStats\obj\Debug\netcoreapp2.1\PartStats.pdb
