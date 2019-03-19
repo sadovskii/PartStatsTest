@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "signature": "f1765525312b1da442bdc5a2ef9191caff820b91"
   },
   "compilationOptions": {},
   "targets": {
@@ -14,7 +14,18 @@
           "PartStats.dll": {}
         }
       },
+      "Microsoft.Office.Interop.Word/12.0.0": {
+        "runtime": {
+          "lib/net11/Microsoft.Office.Interop.Word.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.4518.1014"
+          }
+        }
+      },
       "PartStats.BLL/1.0.0": {
+        "dependencies": {
+          "Microsoft.Office.Interop.Word": "12.0.0"
+        },
         "runtime": {
           "PartStats.BLL.dll": {}
         }
@@ -26,6 +37,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Microsoft.Office.Interop.Word/12.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-e6/6BJURAprkPvRRDQuINXEfN/9KRjPozoLBDOKU1fRuMva1DRDm4FtALvDaplsRo+Uib+Oac7KRycJo5Cu96w==",
+      "path": "microsoft.office.interop.word/12.0.0",
+      "hashPath": "microsoft.office.interop.word.12.0.0.nupkg.sha512"
     },
     "PartStats.BLL/1.0.0": {
       "type": "project",
