@@ -1,4 +1,5 @@
 ﻿using PartStats.BLL;
+using PartStats.BLL.Factories;
 using System;
 
 namespace PartStats
@@ -27,8 +28,9 @@ namespace PartStats
                 param2 = Console.ReadLine();
             }
 
-            var worker = new Worker();
-            worker.Router(param1, param2);
+            var managerFactory = new ManagerFactory();
+            var fileManager = managerFactory.Create(param1);
+            fileManager.Work(param2);
         }   
     }
 }

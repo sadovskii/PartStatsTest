@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Select.Pdf.NetCore" Version="18.4.0" />
+  </ItemGroup>
+
 </Project>

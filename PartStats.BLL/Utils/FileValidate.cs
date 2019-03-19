@@ -1,23 +1,24 @@
-﻿using System;
+﻿using PartStats.BLL.Interfacies;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace PartStats.BLL
+namespace PartStats.BLL.Utils
 {
-    public class ValidFile
+    public class FileValidate : IFileValidate
     {
         public bool CheckFileEncoding(FileInfo fileInfo, Encoding encoding)
         {
             using (var reader = new StreamReader(fileInfo.FullName, new UnicodeEncoding()))
             {
-                reader.Peek(); // you need this!
+                reader.Peek();
                 return reader.CurrentEncoding == encoding;
             }
         }
 
-        public  bool Check(string str)
+        public bool Check(string str)
         {
             if (str.Count(x => x == ',') == 1)
             {
